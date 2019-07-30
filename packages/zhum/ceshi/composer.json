@@ -1,0 +1,24 @@
+{
+    "name": "zhum/ceshi",
+    "description": "cesahi is a my project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zhum",
+            "email": "3005256037@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "zhum\\ceshi\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "zhum\\ceshi\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "zhum/ceshi": "dev-master"
+    }
+}
